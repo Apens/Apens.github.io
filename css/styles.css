@@ -1,6 +1,72 @@
+@font-face {
+  font-family: "Kumbh Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap") format("woff2");
+}
 body {
-  background-color: black;
+  background: linear-gradient(to top right, #19a2ae, cyan);
   color: aliceblue;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  width: 90vw;
+  height: 99vh;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5%;
+  height: 40%;
+  width: 85%;
+  overflow: hidden;
+  background-image: url("http://localhost:63342/Apens.github.io/assets/images/bg-pattern-card.svg");
+  color: black;
+}
+.card__header {
+  height: 30%;
+}
+.card__avatar {
+  padding: 5px;
+  border-radius: 50%;
+  width: 100px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.card__avatar img {
+  width: 100%;
+  clip-path: circle(50%);
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 45%;
+  padding-top: 25px;
+  background-color: white;
+}
+.card__body p:first-child {
+  font-weight: bold;
+  padding-top: 15px;
+}
+.card__body p:nth-child(2) {
+  line-height: 1px;
+}
+.card__body p:nth-child(2),
+.card__body span {
+  font-weight: lighter;
+  color: #969696;
+}
+.card__body span {
+  margin-left: 5px;
+}
+.card__footer {
+  background-color: chartreuse;
+  border-top: 1px solid black;
+  height: 20%;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,4 +1,79 @@
+@use "colors";
+
+@font-face {
+  font-family: 'Kumbh Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap") format("woff2");
+}
+
 body{
-  background-color: black;
+  background: linear-gradient(to top right, colors.$dark_cyan, cyan );
   color: aliceblue;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  //font-size: 15rem;
+  width: 90vw;
+  height: 99vh;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+
+}
+
+.card{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 5%;
+  height: 40%;
+  width: 85%;
+  overflow: hidden;
+  background-image: url("http://localhost:63342/Apens.github.io/assets/images/bg-pattern-card.svg");
+  color: black;
+  &__header{
+    height: 30%;
+
+  }
+  &__avatar{
+    padding: 5px;
+    border-radius: 50%;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    img {
+      width: 100%;
+      clip-path: circle(50%);
+    }
+  }
+  &__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45%;
+    padding-top: 25px;
+    background-color: white;
+    p:first-child {
+      font-weight: bold;
+      padding-top: 15px;
+    }
+    p:nth-child(2){
+      line-height: 1px;
+    }
+    p:nth-child(2),
+    span {
+      font-weight: lighter;
+      color: colors.$dark_grey;
+    }
+    span{
+      margin-left: 5px;
+    }
+  }
+  &__footer{
+    background-color: chartreuse;
+    border-top: 1px solid black;
+    height: 20%;
+  }
 }
