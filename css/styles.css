@@ -20,7 +20,7 @@ body {
   height: 40%;
   width: 85%;
   overflow: hidden;
-  background-image: url("http://localhost:63342/Apens.github.io/assets/images/bg-pattern-card.svg");
+  background-image: url("./assets/images/bg-pattern-card.svg");
   color: black;
 }
 .card__header {
