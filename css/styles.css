@@ -2,6 +2,18 @@
   font-family: "Kumbh Sans", sans-serif;
   src: url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap") format("woff2");
 }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.attribution a {
+  color: #3e52a3;
+}
+
 html {
   background: #19a2ae;
 }
