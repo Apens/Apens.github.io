@@ -12,7 +12,7 @@ html {
     background-image: url("../assets/images/bg-pattern-bottom.svg"), url("../assets/images/bg-pattern-top.svg");
     background-size: 700px;
     background-repeat: no-repeat;
-    background-position: 120px 451px, -400px -356px;
+    background-position: 120px 451px, -450px -322px;
     font-family: "Kumbh Sans", sans-serif;
     font-weight: 400;
     width: 100vw;
@@ -33,6 +33,7 @@ html {
     color: black;
   }
   .card__header {
+    box-shadow: inset 0px -5px 15px 2px rgba(0, 0, 0, 0.2);
     height: 40%;
   }
   .card__avatar {
