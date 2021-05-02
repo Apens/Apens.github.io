@@ -12,8 +12,11 @@ html{
 @media screen and (min-width: 375px) {
   body{
     margin: 0;
-    background-image: url("http://localhost:63342/Apens.github.io/assets/images/bg-pattern-bottom.svg"),
-    url("http://localhost:63342/Apens.github.io/assets/images/bg-pattern-top.svg");
+    background-image: url("./assets/images/bg-pattern-bottom.svg"),
+    url("./assets/images/bg-pattern-top.svg");
+    //background-image: url("http://localhost:63342/Apens.github.io/assets/images/bg-pattern-bottom.svg"),
+    //url("http://localhost:63342/Apens.github.io/assets/images/bg-pattern-top.svg");
+
     background-size: 700px;
     background-repeat: no-repeat;
     background-position: 120px 451px, -400px -356px;
@@ -33,8 +36,9 @@ html{
     height: 40%;
     width: 85%;
     overflow: hidden;
-    background-image: url("http://localhost:63342/Apens.github.io/assets/images/bg-pattern-card.svg");
-    //background-image: url("./assets/images/bg-pattern-card.svg");
+    box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.2);
+    //background-image: url("http://localhost:63342/Apens.github.io/assets/images/bg-pattern-card.svg");
+    background-image: url("./assets/images/bg-pattern-card.svg");
     color: black;
     &__header{
       height: 40%;
