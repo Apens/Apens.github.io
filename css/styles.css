@@ -9,7 +9,7 @@ html {
 @media screen and (min-width: 375px) {
   body {
     margin: 0;
-    background-image: url("/assets/images/bg-pattern-bottom.svg"), url("/assets/images/bg-pattern-top.svg");
+    background-image: url("../assets/images/bg-pattern-bottom.svg"), url("../assets/images/bg-pattern-top.svg");
     background-size: 700px;
     background-repeat: no-repeat;
     background-position: 120px 451px, -400px -356px;
@@ -29,7 +29,7 @@ html {
     width: 85%;
     overflow: hidden;
     box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.2);
-    background-image: url("/assets/images/bg-pattern-card.svg");
+    background-image: url("../assets/images/bg-pattern-card.svg");
     color: black;
   }
   .card__header {
